@@ -3,7 +3,7 @@ def divide(a, b):
     """
     将 a 除以 b 并返回结果
     """
-    return a // b  # ⚠️ 这里用的是整除，可能会引起意外结果
+    return a / b  # 修复: 使用普通除法以返回浮点结果
 
 def add_numbers(numbers):
     """
